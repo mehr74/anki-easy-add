@@ -1,0 +1,26 @@
+{
+
+  "description": "Add words easily from popular English and German dictionary websites to your Deck.",
+  "manifest_version": 2,
+  "name": "AnkiPush",
+  "version": "1.0",
+  "homepage_url": "https://github.com/mehr74/anki-easy-add",
+  "icons": {
+    "48": "icons/anki-push-48.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/anki-push-32.png",
+    "theme_icons": [{
+      "light": "icons/anki-push-32-light.png",
+      "dark": "icons/anki-push-32.png",
+      "size": 32
+    }],
+    "default_title": "AnkiPush",
+    "default_popup": "menu/main_menu.html"
+  }
+}
